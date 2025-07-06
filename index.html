@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <script src="javascript.js"></script> 
+    <title id="titulo">Portfólio Pessoal</title>
+</head>
+
+<body>
+    <br><br><br>
+<div class="container">
+    <!-- Mensagem de boas vindas inicial -->
+    <h1 id="titulo">PORTFÓLIO PESSOAL</h1>
+    <h1>ALINE PÔRTO</h1>
+    
+    <br>
+
+    <nav class="menu">
+        <!-- Menu suspenso com link -->
+        <ul>
+            <li><a href="#sobre" class="link1">SOBRE MIM</a></li>
+            <li><a href="#educa" class="link2">FORMAÇÃO EDUCACIONAL</a></li>
+            <li><a href="#portfolio" class="link3">PORTFÓLIO</a></li>
+            <li><a href="#contato" class="link4">CONTATO</a></li>
+        </ul>
+    </nav>
+
+ <div class="mulher">
+    <img src="imagens/woman.jpg" alt="mulher" width="400px" height="350px" >
+ </div>
+
+ <br><br>
+
+    <div>
+        <br>
+        <section id="sobre">
+            <br><br><br>
+        <h2>SOBRE MIM</h2>
+        <P>Tenho 32 anos, sou gaúcha, mãe de um menino. Sou cristã, me considero uma pessoa simples e humilde que sonha em proporcionar o melhor para si e para sua familia. Trabalho atualmenta na área comercial, estou cursando faculdade de ADS com o intuito de migrar para a área de tecnologia, pela qual sempre fui apaixonada. Já fiz alguns cursos básicos online, mas sinto que chegou o momento de fazer a faculdade e buscar uma colocação profissional nesta área. </P>
+        <hr>
+         <!-- Sobre meus hobbies-->
+        <h3>HOBBIES</h3>
+        <p>Gosto de assistir séries asiáticas, animes, ouvir kpop, jogar jogos, passear no shoping ou parque com meu filho, curto ler romances e mangás. Também gosto muito da culinária italiana. Gosto muito de aprender mais sobre tecnologia, sendo lendo ou estudando. Sou meio nerd, então tudo relacionado a esse gênero é algo que me fascina. Ainda sonho criar algo, um aplicativo ou software que seja de fato relevante. Tenho ideia de criar algo voltado para deficientes auditivos, usando a linguagem de sinais, libras ou algo do tipo para facilitar quem precisa de forma fácil e intuitiva. Como sou cristã e tenho muita fé, um app que levasse o evangelho para essas pessoas de forma inclusiva seria muito legal e gratificante.</p>
+        <!-- Exemplos de hobbies com fotos -->
+        <div class="hobbies">
+
+        <span class="hobbie1">
+            <h4>Ouvir kpop</h4>
+            <img src="imagens/bts.jpeg" alt="bts" height="60%" width="70%">
+        </span>
+
+        <span class="hobbie2">
+            <h4>Ler mangás</h4>
+            <img src="imagens/mangá.png" alt="mangá" height="60%" width="70%">
+         </span>
+
+        <span class="hobbie3">
+            <h4>Cozinhar</h4>
+            <img src="imagens/lasanha.jpg" alt="lasanha" height="60%" width="70%">
+        </span>
+
+        <span class="hobbie4">
+            <h4>Passear</h4>
+            <img src="imagens/mae-e-filho-caminhando-e-se-divertindo-juntos-no-parque-outono.jpg" alt="mãe e filho" height="60%" width="70%">
+        </span>
+    </div>
+
+    <hr>
+
+    <section id="educa">
+        <br><br><br>
+    <div class="educacional">
+        <h2>FORMAÇÃO EDUCACIONAL</h2>
+        <!-- Formação educacional-->
+        <h3>BACHARELADO</h3>
+        <h4>Administração de Empresas - Anhanguera</h4>
+        <img src="imagens/anhanguera.png" alt="anhanguera" title="Faculdade Anhanguera" height="10%" width="10%">
+        <h3>PÓS GRADUAÇÃO</h3>
+        <h4>MBA Marketing e Vendas - Anhanguera</h4>
+        <img src="imagens/anhanguera.png" alt="anhanguera" title="Faculdade Anhanguera" height="10%" width="10%">
+        <h3>TECNÓLOGO</h3>
+        <h4>Análise e Desenvolvimento de Sistemas(cursando) - Uninter</h4>
+        <img src="Cimagens/uninter.png" alt="Uninter" height="10%" width="10%">
+    </div>
+
+    <hr>
+
+    <div  class="educacional">
+        <h3>LINGUAS ESTRANGEIRAS</h3>
+        <h4>INGLÊS BÁSICO - Learnet</h4>
+        <h4>INGLÊS(cursando) - Uninter</h4>
+        <img src="imagens/inglês.jpg" alt="inglês" height="10%" width="10%" title="inglês">
+    </div>
+    </section>
+
+    <section id="portfolio">
+        <br><br><br>
+    <div>
+        <h2>PORTFÓLIO</h2>
+        <h3>Site de estudos e teste HTML: Tag Input e Seus Tipos</h3>
+       <a href="https://alinep29.github.io/formulario-exemplo-html/" target="_blank"> Acesse o site aqui.</a>
+       <br><br><br>
+    </div>
+    </section>
+
+    <section id="contato">
+    <div>
+        <h2>CONTATO</h2>
+        <!--Formulário-->
+        <form action="acessar_formulário" method="post">
+            <table>
+
+                <tr>
+                    <th><label for="nome">Nome:</label></th>
+                    <td><input type="text" id="nome" name="nome"></td>
+                </tr>
+                <tr>
+                    <th><label for="email">Email:</label></th>
+                    <td><input type="email" id="email" name="email"></td>
+                </tr>
+                <tr>
+                    <th><label for="mensagem">Digite sua mensagem:</label></th>
+                    <td><textarea id="mensagem" rows="5" cols="40" name="mensagem" placeholder="Digite sua mensagem:"></textarea></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><button id="button">Enviar</button></td>
+                </tr>
+
+            </table>
+        </form>
+    </div>
+    </section>
+    <br><br><br><br>
+
+    <hr>
+    <p>Feito por Aline Pôrto - 2025</p>
+
+</div>
+</body>
+</html>

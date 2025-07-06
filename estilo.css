@@ -1,0 +1,196 @@
+*{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;    
+  padding: 0 20px;   
+}
+
+#titulo {
+    background-color: #9811d6;
+    color:#ffffff;
+    padding: 20px 20px; 
+    font-size:larger;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    float:none;
+}
+
+h1{
+    text-align: center;
+    color:rgb(46, 0, 145);
+    font-size: x-large;  
+}
+
+#button {
+  background-color: #9811d6;
+  color: white; 
+  padding: 10px 10px; 
+  border:#9811d6 
+}
+
+button:hover{
+    background-color: #ffffff;
+  color:rgb(46, 0, 145);
+}
+
+button:active{
+  transform: translateY(2px);
+}
+
+.menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #9811d6;
+  color: white; 
+  padding: 5px;
+  z-index: 100; 
+  font-weight: bold
+}
+
+.menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+.menu li a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  display: block;
+}
+
+.link1:hover{
+  background-color: #ffffff;
+  color:rgb(46, 0, 145);
+}
+.link2:hover{
+  background-color: #ffffff;
+  color:rgb(46, 0, 145);
+}
+.link3:hover{
+  background-color: #ffffff;
+  color:rgb(46, 0, 145);
+}
+.link4:hover{
+  background-color: #ffffff;
+  color:rgb(46, 0, 145);
+}
+
+.link1:active{
+  transform: translateY(2px);
+}
+.link2:active{
+  transform: translateY(2px);
+}
+.link3:active{
+  transform: translateY(2px);
+}
+.link4:active{
+  transform: translateY(2px);
+}
+
+h2{
+    color: #ffffff;
+    background-color: #9811d6;
+}
+h3{
+    color: rgb(46, 0, 145);
+}
+
+.mulher{
+    width: 500px; 
+      margin: 0 auto;
+}
+
+p{
+    color: rgb(46, 0, 145);
+}
+
+.educacional{
+    color: rgb(46, 0, 145);
+}
+
+.hobbies{
+    display: table;
+    text-align: center;
+    border-top: none;
+    padding-top: 0;
+    float: inline-start;
+}
+
+.hobbie1{
+    display: table-caption;
+    color: #9811d6;
+    float: left;
+    caption-side: top;
+    padding: 20px;
+    border: thin solid;
+    margin: 0px 10px 10px 0px;
+    width: 100%;
+    clear: both;
+}
+
+.hobbie2{
+    display: table-caption;
+    color: #9811d6;
+    clear: center;
+    caption-side: top;
+    padding: 20px;
+    border: thin solid;
+    margin: 0px 10px 10px 0px;
+    width: 100%;
+    clear: both;
+}
+
+.hobbie3{
+    display: table-caption;
+    color: #9811d6;
+    float: right;
+    caption-side: top;
+    padding: 20px;
+    border: thin solid;
+    margin: 0px 10px 10px 0px;
+    width: 100%;
+}
+
+.hobbie4{
+    display: table-caption;
+    color: #9811d6;
+    float: right;
+    caption-side: top;
+    padding: 10px;
+    border: thin solid;
+    margin: 0px 10px 10px 0px;
+    width: 100%;
+}
+
+
+.hobbies{
+    display: flex;
+    border-top: none;
+    padding-top: 0;
+}
+
+.hobbie{
+   flex: 1; 
+   margin: 5px;
+   text-align: center;
+}
+
+.hobbie img{
+   max-width: 100%;
+}
+
+form{
+    text-align: left;
+    color: rgb(46, 0, 145);
+}
+
